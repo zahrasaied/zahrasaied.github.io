@@ -1,14 +1,20 @@
-/* W3.CSS 3.02 Mar 2017 by Jan Egil and Borge Refsnes */
 
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body,h1,h2,h3,h4,h5,h6 {
+	font-family: "Raleway", sans-serif
+}
 body, html {
     height: 100%;
     line-height: 1.8;
 }
-html{box-sizing:border-box}*,*:before,*:after{
+html{
+	box-sizing:border-box}*,*:before,*:after{
 	box-sizing:inherit
 }
-html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+html{
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%
+	}
+body{margin:0}
 
 
 /*Navigatiebalk */
@@ -94,7 +100,7 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 
 .tint{
 	-webkit-filter:grayscale(50%);
-	filter:grayscale(50%)
+	filter:grayscale(50%);
 }
 
 .content-links {
@@ -130,7 +136,7 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 
 /* Opdrachtenpagina's*/
 
-#ClickHere{
+#links{
 	border: 2px #009688;
 	padding: 50px
 	text-decoration: none;
@@ -164,8 +170,8 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 	display: table;
 	clear: both;
 	float: left;
-	width:66.66666%;
-	padding:0.01em 16px;
+	width: 66.66666%;
+	padding: 0.01em 16px;
 }
 
 
@@ -175,14 +181,14 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 
 
 .container{
-	padding:0.01em 16px;
+	padding: 0.01em 16px;
 }
 
 
 .afbeelding{
 	float: left;
-	width:33.33333%;
-	padding:0 8px
+	width: 33.33333%;
+	padding: 0 8px
 }
 
 
