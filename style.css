@@ -875,6 +875,19 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
   cursor: pointer;
 }
 
+.profilepic {
+  background-image: url(fotoik.png);
+  background-size: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  margin: 500px 500px
+  position: relative;
+  -webkit-animation: anm_profilepic 1s;
+  /* Safari 4.0 - 8.0 */
+  animation: anm_profilepic 1s;
+}
 
 
 
